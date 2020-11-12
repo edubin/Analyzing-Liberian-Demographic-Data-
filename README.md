@@ -55,3 +55,24 @@ The age data is skewed to the right and unimodal with a peak at 0-10.
 
 Figure 3.6: Age Counts
 ![](age.png)
+# 4. Pairwise Correlation
+The pairwise correlation plot reveals that the variable that is most correlated to education is wealth, with a correlation coefficient of 0.2584. The least correlated variable to education is size, with a correlation coefficient of -0.0207. Overall, there is no strong correlation between any of the variables. 
+
+Figure 4: Pairwise Correlation Coefficients Amongst all Variables
+![](corr.png)
+# 5. Logistic Regression
+The logistic regression model fitted with a training split of the data revealed a 57.03% accuracy in correctly classifying the testing split of the data. When the MinMaxScaler was applied to the splits before the model was fitted, the model classified the testing data with 57.02% accuracy. Thus, this scaler made the model slightly less accurate in classifying the data. When the MinMaxScaler was applied after the model was fit, the model classified the testing data with 55.27% accuracy. Once again, the MinMaxScaler actually hindered the performance of the model. 
+The RobustScaler and StandardScaler produced similar results to the MinMaxScaler. When applied before the model was fit, the robust scaled model performed with 57.02% accuracy. When applied after the model was fit, it performed with 55.27% accuracy. When the standard scaler was applied before the model was fitted, the model performed with 57.03% accuracy, and when applied after it performed with 56.05% accuracy. 
+Out of all the scaled transformations, the Normalizer performed the best. It improved the performance of the model when applied before the model was fit, boasting an accuracy of 64.65%. When applied after the model was fit, it had an accuracy of 55.27% which was comparable to the other scalers when applied at that stage.
+Overall, the logistic regression model did a decent job at classifying the data, with a peak accuracy rate of 64.65% when the Normalizer was applied on the testing training split before the model was fit. 
+# 6. k-NN
+The k-NN model outperformed the logistic regression model. With its default settings, the model performed with an accuracy of 67.40%. However, when experimenting with the n_neighbors parameter, an accuracy of 69.55% was reached when n_neighbors was equal to 92. With some additional experimentation with the other parameters, a peak accuracy of 70.50% was reached when n_neighbors=92, leaf_size=1, and p=1. 
+Overall, even the most basic k-NN model outperformed the best logistic regression model. However, with some additional parameters, the k-NN model became the best model thus far with an accuracy of 70.50% on the testing split of the data.
+# 7. Decision Tree & Random Forest
+The basic decision tree model performed with quite similar accuracy as the best logistic regression at 64.20% (the best logistic regression model had an accuracy of 64.45%). After some testing, a peak accuracy of 71.63% was reached when the parameters max_depth=9 and min_samples_leaf=8 were added. With these additional parameters, the decision tree model outperformed both the best logistic regression model and the best k-NN model.
+With its default settings, the Random forest model performed with 67.75% accuracy. The first parameter that was altered was n_estimators. An accuracy of 68.14% was reached when n_estimators was set to 700. A peak accuracy of 72.22% was reached when the additional parameters max_depth=8 and min_samples_split=.001 were included in the model.
+Overall, both the best decision tree and random forest models performed the best k-NN and best logistic regression models. The best performance came from the random forest model, with a peak accuracy of 72.22%.
+
+# Summary of Findings
+Out of all the models tested, the best random forest model with additional parameters n_estimators=700, max_depth=8, and min_samples_split=.001 performed with the highest accuracy of 72.22% in classifying the data points in the testing split. This model would be the best fit model out of those tested in this study to predict the education level of a Liberian individual, given some basic knowledge of their background. 
+
