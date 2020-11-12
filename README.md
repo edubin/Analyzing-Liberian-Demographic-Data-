@@ -9,4 +9,4 @@ The average level of education of an individual in Liberia is 0.6653. The averag
 
 
 ## Table 2.1: Averages, Standard Deviations, and Ranges of Numerical Variables.
-![](Screen Shot 2020-11-12 at 2.34.06 PM.png) 
+![](table1.png) 
