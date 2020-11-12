@@ -32,7 +32,9 @@ Table 2.4: Average and Standard Deviations of Variables of Above/Below Average W
 The data is skewed right meaning that there are more individuals with low education levels than there are with high education levels. This means the surveyed population of Liberia is made up of mostly low leveled education individuals. The data is unimodal with a peak at 0-1, showing that most of the population falls into that education range than any other range. 
 
 Figure 3.1: Education Counts
+
 ![](education.png)
+
 ## 3.2: Location
 The location data shows the number of surveyed individuals in each locality of Liberia. The data is unimodal with a peak at 11, indicating that this locality is the most populous amongst those who were surveyed. 
 
