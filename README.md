@@ -24,3 +24,34 @@ Compared to the average education associated with the complete set of data, the 
 
 Table 2.4: Average and Standard Deviations of Variables of Above/Below Average Wealth Individuals
 ![](table4.png)
+# 3. Histograms
+## 3.1: Education
+The data is skewed right meaning that there are more individuals with low education levels than there are with high education levels. This means the surveyed population of Liberia is made up of mostly low leveled education individuals. The data is unimodal with a peak at 0-1, showing that most of the population falls into that education range than any other range. 
+
+Figure 3.1: Education Counts
+![](education.png)
+## 3.2: Location
+The location data shows the number of surveyed individuals in each locality of Liberia. The data is unimodal with a peak at 11, indicating that this locality is the most populous amongst those who were surveyed. 
+
+Figure 3.2: Location Counts
+![](location.png)
+## 3.3: Size
+The size data is very skewed to the right meaning that there are more individuals with low size levels than there are with high size levels. The data is unimodal with a peak at 0-5, showing that more of the population falls into that size range than any other range.
+
+Figure 3.3: Size Counts
+![](size.png)
+## 3.4 Wealth
+The wealth data appears to be much more evenly distributed than the previous variables. However, the data still seems to be skewed towards the right. 
+
+Figure 3.4: Wealth Counts
+![](wealth.png)
+## 3.5 Gender
+The gender data appears to be evenly split between the two dummy variables, yet there does appear to be slightly more gender one data points than gender 2 points. 
+
+Figure 3.5: Gender Counts
+![](gender.png)
+## 3.6 Age
+The age data is skewed to the right and unimodal with a peak at 0-10.
+
+Figure 3.6: Age Counts
+![](age.png)
