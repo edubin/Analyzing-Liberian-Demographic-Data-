@@ -7,6 +7,17 @@ Number of Observations = 48,219
 
 The average level of education of an individual in Liberia is 0.6653. The average size is 6.9345. The average wealth is 2.4319. The average age is 22.4990.
 
-
 ## Table 2.1: Averages, Standard Deviations, and Ranges of Numerical Variables.
 ![](table1.png) 
+There are two genders in the data set. There is a slight majority in Gender 1. There are 15 localities in the data set. The location with the most data points is location 11 with 13.20% of the individuals from there.
+
+## Table 2.2: Counts & Proportions for Gender and Location
+![](table2.png) 
+The average education level for a person of gender 1 is 0.8153. The average education level for a person of gender 2 is 0.5118.
+
+## Table 2.3: Average and Standard Deviation of Education by Gender
+![](table3.png)
+Compared to the average education associated with the complete set of data, the average for individuals with above average (>2.4319) wealth is higher (31.87% increase). There is also more variation in the education levels of the above average wealth subset than there is for the total education level. The average education for the top wealth tier (where wealth is equal to 5) is also significantly higher than the total education average (90.21% increase). In this subset, the data continues to become even more varied than both the original set of data and the above average wealth subset. The average education level for individuals with below average wealth is less than the all data average with a 23.84% decrease. This subset also appears to have the least variation of any of the other education subsets.
+
+## Table 2.4: Average and Standard Deviations of Variables of Above/Below Average Wealth Individuals
+![](table4.png)
