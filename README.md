@@ -8,5 +8,5 @@ Number of Observations = 48,219
 The average level of education of an individual in Liberia is 0.6653. The average size is 6.9345. The average wealth is 2.4319. The average age is 22.4990.
 
 
-Table 2.1: Averages, Standard Deviations, and Ranges of Numerical Variables.
-
+## Table 2.1: Averages, Standard Deviations, and Ranges of Numerical Variables.
+![](Screen Shot 2020-11-12 at 2.34.06 PM.png) 
